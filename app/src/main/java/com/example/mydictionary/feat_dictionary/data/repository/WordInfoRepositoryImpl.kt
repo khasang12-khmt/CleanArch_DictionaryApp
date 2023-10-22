@@ -25,7 +25,7 @@ class WordInfoRepositoryImpl(
         try{
             // Remove old data and replace with new ones for the SAME WORD (from remote api)
           val remoteWordInfos = api.getWordInfo(word)
-          dao.deleteWordInfos(remoteWordInfos.map {it.word})
+          dao.deleteWordInfos(remoteWordInfos.map {it.word ?: ""})
           dao.insertWordInfos(remoteWordInfos.map {it.toWordInfoEntity()})
         } catch (e: HttpException){
             emit(Resource.Error(
