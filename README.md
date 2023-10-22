@@ -12,4 +12,6 @@
 
 ## Screenshot
 
-<img src="https://github.com/khasang12-khmt/CleanArch_DictionaryApp/assets/80106348/18fda7b6-b07d-48c1-820d-43711aabd65c" alt="Your image title" width="250"/>
+<img src="https://github.com/khasang12-khmt/CleanArch_DictionaryApp/assets/80106348/18fda7b6-b07d-48c1-820d-43711aabd65c" alt="Your image title" width="300"/>
+<img src="https://github.com/khasang12-khmt/CleanArch_DictionaryApp/assets/80106348/641e3135-5bea-45da-bdb0-53b4eecbcb99" alt="Your image title" width="300"/>
+
